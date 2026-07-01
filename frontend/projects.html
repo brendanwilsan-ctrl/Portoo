@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Manage Project</title>
+
+<link rel="stylesheet"
+href="./admin/css/projects.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Manage Projects</h1>
+
+<form id="projectForm">
+
+<input
+type="hidden"
+id="id">
+
+<input
+type="text"
+id="nama_project"
+placeholder="Nama Project"
+required>
+
+<textarea
+id="deskripsi"
+placeholder="Deskripsi"></textarea>
+
+<input
+type="text"
+id="teknologi"
+placeholder="Teknologi">
+
+<input
+type="text"
+id="github"
+placeholder="Github">
+
+<input
+type="text"
+id="demo"
+placeholder="Demo">
+
+<input
+type="text"
+id="gambar"
+placeholder="URL Gambar">
+
+<button
+id="submitBtn">
+
+Simpan
+
+</button>
+
+</form>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Project</th>
+
+<th>Teknologi</th>
+
+<th>Aksi</th>
+
+</tr>
+
+</thead>
+
+<tbody id="projectTable">
+
+</tbody>
+
+</table>
+
+</div>
+<script src="./admin/js/project.js"></script>
+</body>
+</html>

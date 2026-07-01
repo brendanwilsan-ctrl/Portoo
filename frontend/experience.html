@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Experience</title>
+
+<link rel="stylesheet"
+href="./admin/css/experience.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Manage Experience</h1>
+
+<form id="experienceForm">
+
+<input
+type="hidden"
+id="id">
+
+<input
+type="text"
+id="perusahaan"
+placeholder="Perusahaan"
+required>
+
+<input
+type="text"
+id="posisi"
+placeholder="Posisi"
+required>
+
+<input
+type="date"
+id="mulai"
+required>
+
+<input
+type="date"
+id="selesai"
+required>
+
+<textarea
+id="deskripsi"
+placeholder="Deskripsi"></textarea>
+
+<button
+id="submitBtn">
+
+Simpan
+
+</button>
+
+</form>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Perusahaan</th>
+
+<th>Posisi</th>
+
+<th>Periode</th>
+
+<th>Aksi</th>
+
+</tr>
+
+</thead>
+<tbody id="experienceTable">
+</tbody>
+</table>
+</div>
+<script src="./admin/js/experience.js"></script>
+</body>
+</html>

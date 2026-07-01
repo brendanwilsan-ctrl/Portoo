@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brendan Wilson | Portfolio</title>
+    <link rel="stylesheet" href="./admin/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6d7e9d0b65.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="bg-blur one"></div>
+<div class="bg-blur two"></div>
+<nav>
+    <h2 class="logo">Brendan.</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<section class="hero" id="about">
+    <div class="hero-text">
+        <span class="tag">
+            👋 Welcome to my Portfolio
+        </span>
+        <h1 id="nama">
+            Loading...
+        </h1>
+        <h2 id="profesi">
+            Loading...
+        </h2>
+        <p id="deskripsi">
+            Loading...
+        </p>
+        <div class="hero-button">
+            <a href="#contact" class="btn">
+                Contact Me
+            </a>
+            </a>
+        </div>
+    </div>
+    <div class="hero-image">
+        <div class="circle"></div>
+        <img
+            id="foto"
+            src=""
+            alt="Profile">
+    </div>
+</section>
+<section id="skills">
+    <div class="title">
+        <span>WHAT I CAN DO</span>
+        <h2>Skills</h2>
+    </div>
+    <div id="skillList"></div>
+</section>
+<section id="experience">
+    <div class="title">
+        <span>MY JOURNEY</span>
+        <h2>Experience</h2>
+    </div>
+    <div id="experienceList"></div>
+</section>
+<section id="projects">
+
+    <div class="title">
+        <span>RECENT WORK</span>
+        <h2>Projects</h2>
+    </div>
+    <div id="projectList"></div>
+</section>
+<section id="contact">
+
+    <div class="title">
+        <span>GET IN TOUCH</span>
+        <h2>Send Me a Message</h2>
+    </div>
+
+    <form id="contactForm" class="contact-form">
+
+        <input
+            type="text"
+            id="contact_nama"
+            placeholder="Your Name"
+            required>
+
+        <input
+            type="email"
+            id="contact_email"
+            placeholder="Your Email"
+            required>
+
+        <input
+            type="text"
+            id="contact_subjek"
+            placeholder="Subject"
+            required>
+
+        <textarea
+            id="contact_pesan"
+            rows="6"
+            placeholder="Your Message"
+            required></textarea>
+
+        <button class="btn" type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+</section>
+<footer>
+    <h2>Brendan Wilson</h2>
+    <p>
+        Backend Developer • Flask • JavaScript • MySQL
+    </p>
+    <small>
+        © 2026 Brendan Wilson. All Rights Reserved.
+    </small>
+</footer>
+<script src="./admin/js/main.js"></script>
+<script src="./admin/js/contact.js"></script>
+</body>
+</html>

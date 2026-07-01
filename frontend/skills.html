@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Manage Skill</title>
+<link rel="stylesheet"
+href="./admin/css/skills.css">
+</head>
+<body>
+<div class="container">
+<h1>Manage Skills</h1>
+<form id="skillForm">
+<input
+type="hidden"
+id="id">
+<input
+type="text"
+id="nama_skill"
+placeholder="Nama Skill"
+required>
+<input
+type="number"
+id="persentase"
+placeholder="Persentase"
+required>
+<button
+id="submitBtn"
+type="submit">
+Simpan
+</button>
+</form>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Persentase</th>
+<th>Aksi</th>
+</tr>
+</thead>
+<tbody id="skillTable">
+</tbody>
+</table>
+</div>
+<script src="./admin/js/skills.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Admin</title>
+    <link rel="stylesheet" href="./admin/css/dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6d7e9d0b65.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="sidebar">
+    <h2>Brendan<span>.</span></h2>
+    <a href="dashboard.html">
+        <i class="fa-solid fa-chart-line"></i>
+        Dashboard
+    </a>
+    <a href="profiles.html">
+        <i class="fa-solid fa-user"></i>
+        Profile
+    </a>
+    <a href="skills.html">
+        <i class="fa-solid fa-code"></i>
+        Skills
+    </a>
+    <a href="experience.html">
+        <i class="fa-solid fa-briefcase"></i>
+        Experience
+    </a>
+    <a href="projects.html">
+        <i class="fa-solid fa-folder-open"></i>
+        Projects
+    </a>
+    <a href="contact.html">
+        <i class="fa-solid fa-envelope"></i>
+        Contact
+    </a>
+    <a href="upload.html">
+        <i class="fa-solid fa-image"></i>
+        Upload
+    </a>
+    <a href="index.html" target="_blank">
+        <i class="fa-solid fa-globe"></i>
+        Portfolio
+    </a>
+    <a href="login.html">
+        <i class="fa-solid fa-right-from-bracket"></i>
+        Logout
+    </a>
+</div>
+<div class="main">
+    <h1>Dashboard</h1>
+    <p>
+        Welcome back, Brendan 👋
+    </p>
+    <div class="cards">
+        <div class="card">
+            <h3 id="totalProfile">0</h3>
+            <span>Profile</span>
+        </div>
+        <div class="card">
+            <h3 id="totalSkill">0</h3>
+            <span>Skills</span>
+        </div>
+        <div class="card">
+            <h3 id="totalExperience">0</h3>
+            <span>Experience</span>
+        </div>
+        <div class="card">
+            <h3 id="totalProject">0</h3>
+            <span>Projects</span>
+        </div>
+    </div>
+    <div class="menu">
+        <a href="profiles.html" class="box">
+            <i class="fa-solid fa-user"></i>
+            <h2>Profile</h2>
+            <p>Manage profile information.</p>
+        </a>
+        <a href="skills.html" class="box">
+            <i class="fa-solid fa-code"></i>
+            <h2>Skills</h2>
+            <p>Manage all skills.</p>
+        </a>
+        <a href="experience.html" class="box">
+            <i class="fa-solid fa-briefcase"></i>
+            <h2>Experience</h2>
+            <p>Manage work experience.</p>
+        </a>
+        <a href="projects.html" class="box">
+            <i class="fa-solid fa-folder-open"></i>
+            <h2>Projects</h2>
+            <p>Manage projects.</p>
+        </a>
+        <a href="contact.html" class="box">
+            <i class="fa-solid fa-envelope"></i>
+            <h2>Contact</h2>
+            <p>View incoming messages.</p>
+        </a>
+        <a href="upload.html" class="box">
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+            <h2>Upload</h2>
+            <p>Upload image to Cloudinary.</p>
+        </a>
+    </div>
+</div>
+<script src="./admin/js/dashboard.js"></script>
+</body>
+</html>

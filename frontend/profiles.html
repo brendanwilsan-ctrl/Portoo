@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./admin/css/profiles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<h1>Manage Profile</h1>
+<form id="profileForm">
+<input type="hidden" id="id">
+<input
+type="text"
+id="nama"
+placeholder="Nama"
+required>
+<input
+type="text"
+id="profesi"
+placeholder="Profesi"
+required>
+<textarea
+id="deskripsi"
+placeholder="Deskripsi"
+rows="5"></textarea>
+<input
+type="email"
+id="email"
+placeholder="Email">
+<input
+type="text"
+id="telepon"
+placeholder="Telepon">
+<input
+type="text"
+id="alamat"
+placeholder="Alamat">
+<input
+type="text"
+id="foto"
+placeholder="URL Foto">
+<button
+id="submitBtn"
+type="submit">
+Simpan
+</button>
+</form>
+<h2>Data Profile</h2>
+<table>
+<thead>
+<tr>
+<th>Nama</th>
+<th>Profesi</th>
+<th>Email</th>
+<th>Aksi</th>
+</tr>
+</thead>
+<tbody id="profileTable">
+</tbody>
+</table>
+</div>
+<script src="./admin/js/profiles.js"></script>
+</body>
+</html>
