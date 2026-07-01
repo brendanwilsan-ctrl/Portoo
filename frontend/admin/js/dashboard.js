@@ -12,5 +12,26 @@ async function loadDashboard(){
         experience.length;
     document.getElementById("totalProject").textContent =
         project.length;
+        if(localStorage.getItem("login") !== "true"){
+
+    window.location.href="login.html";
+
+}
+        if(!localStorage.getItem("login")){
+
+    window.location.href="login.html";
+
+}
 }
 loadDashboard();
+function logout(){
+
+    if(confirm("Yakin ingin logout?")){
+
+        localStorage.removeItem("login");
+
+        window.location.href="login.html";
+
+    }
+
+}

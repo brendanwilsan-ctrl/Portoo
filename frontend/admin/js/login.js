@@ -16,7 +16,11 @@ document.getElementById("loginForm")
         );
         const result = await response.json();
         if(result.status === "success"){
-    window.location.href = "dashboard.html";
+
+    localStorage.setItem("login","true");
+
+    window.location.href="dashboard.html";
+
 }else{
     alert(result.message);
 }
