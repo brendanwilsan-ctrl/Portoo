@@ -134,3 +134,24 @@ document.querySelectorAll(".skill,.card,.contact-card").forEach(el=>{
     el.style.transition=".7s";
     observer.observe(el);
 });
+
+// Tampilkan menu Logout jika admin sedang login
+if(localStorage.getItem("login") === "true"){
+    const menu = document.getElementById("logoutMenu");
+    if(menu){
+        menu.style.display = "block";
+    }
+}
+
+// Fungsi Logout
+function logout(){
+
+    if(confirm("Yakin ingin logout?")){
+
+        localStorage.removeItem("login");
+
+        window.location.href = "login.html";
+
+    }
+
+}
