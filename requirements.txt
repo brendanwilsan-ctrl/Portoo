@@ -1,4 +1,5 @@
 blinker==1.9.0
+flask-cors==5.0.1
 certifi==2026.6.17
 charset-normalizer==3.4.7
 click==8.4.1
@@ -21,3 +22,12 @@ SQLAlchemy==2.0.51
 typing_extensions==4.15.0
 urllib3==2.7.0
 Werkzeug==3.1.8
+cloudinary
+flask
+flask-cors
+flask-login
+flask-sqlalchemy
+pymysql
+python-dotenv
+requests
+resend
